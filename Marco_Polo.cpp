@@ -29,13 +29,13 @@ void polo()
 int main()
 {
   std::thread first (marco);
-  for (int i=0; i<10;++i) //loop throught 10 times
+  for (int i=0; i<9;i++) //loop throught 10 times
   {
     marco();
   }
 
   std::thread second (polo);
-  for (int j=0; j<10;++j)
+  for (int j=0; j<9;j++)
   {
     polo();
   }
