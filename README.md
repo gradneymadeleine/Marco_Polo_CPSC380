@@ -1,13 +1,13 @@
 # Marco_Polo_CPSC380
 # Student
-Madeleine Gradney <\br>
-gradney@chapman.edu <\br>
+Madeleine Gradney. 
+gradney@chapman.edu. 
 
 # Description
-Each thread shall loop 10 times,and each time it will <\br>
-print out its identity followed by a 1 second pause<\br>
-The main program shall create both threads and monitor<\br>
-for them both to join<\br>
+Each thread shall loop 10 times,and each time it will. 
+print out its identity followed by a 1 second pause. 
+The main program shall create both threads and monitor. 
+for them both to join. 
 
 # File(s)
 Marco_Polo.cpp
@@ -16,7 +16,7 @@ Marco_Polo.cpp
 n/a
 
 # Referances 
-http://www.cplusplus.com/reference/thread/thread/
-https://stackoverflow.com/questions/4184468/sleep-for-milliseconds
-https://www.geeksforgeeks.org/multithreading-in-cpp/
-http://www.cplusplus.com/reference/thread/thread/join/
+http://www.cplusplus.com/reference/thread/thread/. 
+https://stackoverflow.com/questions/4184468/sleep-for-milliseconds. 
+https://www.geeksforgeeks.org/multithreading-in-cpp/. 
+http://www.cplusplus.com/reference/thread/thread/join/. 
