@@ -15,7 +15,7 @@ void marco()
 {
 
     cout << "Marco" << endl;
-    std::this_thread::sleep_for(std::chrono::milliseconds(100));
+    std::this_thread::sleep_for(std::chrono::milliseconds(100)); //pause after 1 second
 
 
 }
@@ -23,13 +23,13 @@ void marco()
 void polo()
 {
     cout << "Polo \n" << endl;
-    std::this_thread::sleep_for(std::chrono::milliseconds(100));
+    std::this_thread::sleep_for(std::chrono::milliseconds(100)); //to pause after 1 second
 }
 
 int main()
 {
   std::thread first (marco);
-  for (int i=0; i<10;++i)
+  for (int i=0; i<10;++i) //loop throught 10 times
   {
     marco();
   }
@@ -42,10 +42,10 @@ int main()
 
   try
   {
-    first.join();
+    first.join(); //join
     second.join();
   }
-  catch(exception& e)
+  catch(exception& e) //catch an error
   {
     cout << e.what() << '\n';
   }
